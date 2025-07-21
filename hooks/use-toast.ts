@@ -1,0 +1,1 @@
+export function useToast() { return { toast: (opts) => alert(opts?.description || opts?.title) }; }
